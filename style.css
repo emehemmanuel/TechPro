@@ -34,3 +34,35 @@
 .nav-links a:hover {
   color: #a78bfa;          
 }
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e40af); 
+  color: white;            
+  min-height: 100vh;     
+  display: flex;          
+  justify-content: center; 
+  align-items: center;  
+  text-align: center;           
+}
+.hero-content h1 {
+  font-size: 52px;    
+  font-weight: 800;   
+  margin-bottom: 20px; 
+}
+.hero-content p {
+  font-size: 18px;    
+  opacity: 0.85; 
+  margin-bottom: 36px;
+}
+.btn {
+  background-color: #7c3aed; 
+  color: white;               
+  padding: 14px 36px;   
+  border-radius: 8px;          
+  text-decoration: none;  
+  font-weight: bold;           
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #6d28d9; 
+}
